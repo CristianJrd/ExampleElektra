@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_logo_elektra_toolbar"
+                        android:layout_width="104dp"
+                        android:layout_height="32dp"
+                        android:paddingBottom="4dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        tools:src="@drawable/img_elektra"
+                        android:contentDescription="@string/label_image_time_elektra" />
+
+                    <ImageView
+                        android:id="@+id/iv_logo_credito_elektra_toolbar"
+                        android:layout_width="104dp"
+                        android:layout_height="56dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@id/icon_profile_toolbar"
+                        tools:src="@drawable/img_cedit"
+                        android:contentDescription="@string/label_image_time_elektra" />
+
+                    <ImageView
+                        android:id="@+id/icon_profile_toolbar"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginHorizontal="8dp"
+                        android:layout_toStartOf="@id/icon_shopping_cart_toolbar"
+                        tools:src="@drawable/ic_account_circle_black_24dp"
+                        android:contentDescription="@string/label_image_time_elektra" />
+
+                    <ImageView
+                        android:id="@+id/icon_shopping_cart_toolbar"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginHorizontal="8dp"
+                        android:layout_alignParentEnd="true"
+                        tools:src="@drawable/ic_shopping_cart"
+                        android:contentDescription="@string/label_image_time_elektra" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        tools:ignore="UselessParent">
+
+                        <ImageButton
+                            android:id="@+id/icon_menu_toolbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:src="@drawable/ic_menu_black_24dp"
+                            android:layout_marginHorizontal="8dp"
+                            android:background="@drawable/shape_red_background_left"
+                            android:contentDescription="@string/label_image_time_elektra" />
+
+                        <EditText
+                            android:id="@+id/et_search_products_toolbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".4"
+                            android:padding="8dp"
+                            android:maxLength="40"
+                            android:background="@color/colorAccent"
+                            android:hint="@string/hint_buscar_productos"
+                            android:textColorHint="#363336"
+                            android:textColor="@color/color_black"
+                            android:inputType="textCapCharacters"
+                            android:textSize="16sp"
+                            android:importantForAutofill="no" />
+
+                        <ImageButton
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:src="@drawable/ic_search_white_24dp"
+                            android:layout_marginHorizontal="8dp"
+                            android:background="@drawable/shape_red_background_rigth"
+                            android:contentDescription="@string/label_image_time_elektra" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_menu_nav_drawer" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

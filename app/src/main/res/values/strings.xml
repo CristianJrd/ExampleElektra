@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ExampleElektra</string>
+    <string name="label_comprar">Comprar</string>
+    <string name="label_msi">MSI</string>
+    <string name="label_pago_semanal">Desde $340.00 semanales con CRÉDITO</string>
+    <string name="label_image_time_elektra">image_time_elektra</string>
+    <string name="hint_buscar_productos">Busca por producto, marca o departamento</string>
+
+    <string-array name="options_sort_array">
+        <item>Destacados</item>
+        <item>Precio más bajo</item>
+        <item>Precio más alto</item>
+        <item>A - Z</item>
+        <item>Z - A</item>
+    </string-array>
+
+</resources>
