@@ -12,13 +12,13 @@ http://hnoscarrasco.com/images/Imagen%20producto6
 
 La información de los productos debe ser consumida en Graphql se muestra al final un ejemplo.
 
-Al presionar ver todos de cada grid debe llevar a una nueva vista sin perder el header o toolbar de busqueda y cargar todos los productos
-en forma de lista; El buscador(header o toolbar) debe filtrar esta lista por nombre de forma predictiva.
+Al presionar ver todos de cada grid debe llevar a una nueva vista en donde se implementará un header o toolbar de busqueda y cargar todos los productos en forma de lista; El buscador(header o toolbar) debe filtrar esta lista por nombre de forma predictiva.
 
-El botón crear cuenta debe llevar a otra vista de un formulario basico y al rotar o al entrar en el metodo onStop() se guarde
-la información de los campos.
+En la seccion de marcas participantes y los mas vendidos se debe implementar un carousel que se mueva por el usuario y no por tiempo.
 
 Al regresar de cualquier vista debe regresar a Home, para salir de la aplicación en Home debe presionar dos veces back.
+
+En la parte de la navegación se deberá agregar un boton para crear cuenta que lleve a una vista de formulario, la información de los campos no se debe perder cuando el telefono gire o entre a background.
 
 ## Petición de ejemplo en GraphQL
 ```bash
@@ -65,4 +65,4 @@ Si tienes dudas, puedes revisar el siguiente ejemplo [aquí](https://stage.ektde
 
 
 ## UI de muestra
-![](https://raw.githubusercontent.com/CristianJrd/ExampleElektra/master/001.2-Home-sesion-inactiva.png)
+![](https://raw.githubusercontent.com/CristianJrd/ExampleElektra/master/01%20Season.png)
