@@ -4,11 +4,11 @@ La prueba consiste en diseñar lo mas cercano a la UI una aplicación en Kotlin.
 
 Se requiere consumir las imagenes de los banners : 
 
-http://hnoscarrasco.com/images/Banner-principal
-http://hnoscarrasco.com/images/Banner%201%20app%20home
-http://hnoscarrasco.com/images/Banner%202%20app%20home
-http://hnoscarrasco.com/images/Banner%203%20app%20home
-http://hnoscarrasco.com/images/Banner%204%20app%20home
+http://hnoscarrasco.com/images/cekt
+http://hnoscarrasco.com/images/hotsale
+http://hnoscarrasco.com/images/Imagen%20producto4
+http://hnoscarrasco.com/images/Imagen%20producto5
+http://hnoscarrasco.com/images/Imagen%20producto6
 
 La información de los productos debe ser consumida en Graphql se muestra al final un ejemplo.
 
