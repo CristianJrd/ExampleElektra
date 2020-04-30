@@ -65,4 +65,4 @@ Si tienes dudas, puedes revisar el siguiente ejemplo [aquí](https://stage.ektde
 
 
 ## UI de muestra
-![](https://raw.githubusercontent.com/ocardenasg/elektra-mobile-test/master/EjemploUI.png)
+![](https://raw.githubusercontent.com/CristianJrd/ExampleElektra/master/001.2-Home-sesion-inactiva.png)
